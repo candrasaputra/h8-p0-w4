@@ -1,24 +1,24 @@
 # h8-p0-w4
 ## SELASA - Numbers Crunching and Play with Strings ##
-- [**Exercises 1**] Angka Prima
-- [**Exercises 2**] Faktor Persekutuan Terbesar
-- [**Exercises 3**] Cari Median
-- [**Exercises 4**] Cari Modus
-- [**Exercises 5**] Ubah Huruf
+- [[**Exercises 1**](/Selasa/exercises-1.js)] Angka Prima
+- [[**Exercises 2**](/Selasa/exercises-2.js)] Faktor Persekutuan Terbesar
+- [[**Exercises 3**](/Selasa/exercises-3.js)] Cari Median
+- [[**Exercises 4**](/Selasa/exercises-4.js)] Cari Modus
+- [[**Exercises 5**](/Selasa/exercises-5.js)] Ubah Huruf
 
 ## RABU - Built-in Functions Mastery ##
-- [**Exercises 6**] Digit Perkalian Minimum anchor
-- [**Exercises 7**] Urutkan Abjad
-- [**Exercises 8**] Tukar Ukuran
-- [**Exercises 9**] Cek AB
+- [[**Exercises 6**](/Rabu/exercises-6.js)] Digit Perkalian Minimum anchor
+- [[**Exercises 7**](/Rabu/exercises-7.js)] Urutkan Abjad
+- [[**Exercises 8**](/Rabu/exercises-8.js)] Tukar Ukuran
+- [[**Exercises 9**](/Rabu/exercises-9.js)] Cek AB
 
 ## KAMIS - Object Literal ##
-- [**Exercises 10**] Change me
-- [**Exercises 11**] Shopping Time!
-- [**Exercises 12**] Toko X
+- [[**Exercises 10**](/Kamis/exercises-10.js)] Change me
+- [[**Exercises 11**](/Kamis/exercises-11.js)] Shopping Time!
+- [[**Exercises 12**](/Kamis/exercises-12.js)] Toko X
 
 ## JUMAT - Mastered Array and Object ##
-- [**Exercises 13**] Deep Sum
-- [**Exercises 14**] Naik Angkot
-- [**Exercises 15**] Highest Score
-- [**Exercises 16**] Graduates
+- [[**Exercises 13**](/Jumat/exercises-13.js)] Deep Sum
+- [[**Exercises 14**](/Jumat/exercises-14.js)] Naik Angkot
+- [[**Exercises 15**](/Jumat/exercises-15.js)] Highest Score
+- [[**Exercises 16**](/Jumat/exercises-16.js)] Graduates

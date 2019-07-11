@@ -5,19 +5,17 @@
 */
 
 function angkaPrima(angka) {
-    let status = true;
-
     if (angka <= 1) {
-        status = false;
+        return false;
     }
 
     for (let i = 2; i < angka; i++) {
         if ((angka % i) == 0) {
-            status = false;
+            return false;
         }
     }
 
-    return status;
+    return true;
 }
 
 // TEST CASES

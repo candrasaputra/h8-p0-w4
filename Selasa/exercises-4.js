@@ -9,33 +9,46 @@
 */
 
 function cariModus(arr) {
-    let highCounter = 0;
-    let highNumber = 0;
-    let length = arr.length;
-    let tmpArr = 0;
+    arr.sort(function(a, b){return a>b});
+    let highCounter = -1;
+    let highNumber = -1;
 
-    for (let i = 0; i < length; i++) {
-        let tmpCounter = 0;
-        let tmpNumber = arr[i];
+    let counter = 0;
+    let currentNumber = arr[0];
+    let tmp = [];
 
-        for (let j = 0; j < length; j++) {
-            if (arr[i] === arr[j]) {
-                tmpCounter++;
+    for (let i = 0; i < arr.length; i++) {
+        if (currentNumber == arr[i]) {
+            counter++;
+        } else {
+            if (counter > highCounter) {
+                highCounter = counter;
+                highNumber = currentNumber;
+
+                counter = 1;
+                currentNumber = arr[i];
+                tmp = [];
+                tmp.push(highNumber);
+            } else if (counter === highCounter) {
+                tmp.push(currentNumber);
+                counter = 1;
+                currentNumber = arr[i];
+            } else {
+                currentNumber = arr[i];
             }
         }
 
-        tmpArr += tmpCounter;
-
-        if (tmpCounter > highCounter) {
-            highCounter = tmpCounter;
-            highNumber = tmpNumber;
+        if (i === (arr.length - 1)) {
+            if (counter === highCounter) {
+                tmp.push(arr[i]);
+            }
         }
     }
 
-    if ((tmpArr % length) === 0 ) {
+    if ((tmp.length < 1) || (arr.length === tmp.length)) {
         return -1;
     } else {
-        return highNumber;
+        return tmp[0];
     }
 }
 
